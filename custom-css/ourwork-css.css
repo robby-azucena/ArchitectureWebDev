@@ -1,0 +1,59 @@
+.sec1{
+    padding: 100px 0;
+    background: url(../img/our-work.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.sec1 .container{
+    position: relative;
+    z-index: 10000;
+}
+
+.sec1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(#000, transparent); 
+    pointer-events: none;
+    z-index: 0;
+}
+
+.sec1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(360deg, #000, transparent); 
+    pointer-events: none;
+    z-index: 0;
+}
+
+
+
+
+.card{
+    background-color: transparent;
+    border: none;
+    border: none !important;
+}
+
+.card-body p{
+    height: 100px;
+}
+
+
+.work-card{
+    background-color: white;
+    height: 100%;
+    position: relative;
+}
+
+

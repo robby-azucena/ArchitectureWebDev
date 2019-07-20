@@ -1,0 +1,50 @@
+.banner{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/home-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 0;
+}
+
+.banner::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(#000, transparent); 
+    pointer-events: none;
+}
+
+.banner::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(360deg, #000, transparent); 
+    pointer-events: none;
+}
+
+.height100p{
+    height:100vh;
+}
+
+.h100{
+    height: 100%;
+}
+
+.contentbox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    z-index: 10;
+}

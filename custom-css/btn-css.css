@@ -1,0 +1,12 @@
+.btn-primary{
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 0;
+    
+    background-color: #000000 !important;
+}
+
+.btn{
+    margin: auto;
+    padding: 15px 30px;
+}
